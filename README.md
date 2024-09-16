@@ -1,6 +1,6 @@
 # Attention-Seeker
 
-The present repository is for the paper: Attention-Seeker: Dynamic Self-Attention Socring for Unsupervised Keyphrase Extraction
+The present repository is for the paper: "Attention-Seeker: Dynamic Self-Attention Socring for Unsupervised Keyphrase Extraction"
 
 The code to replicate the results of the paper is organized into seven notebooks. 
 The first two notebooks cover the main experiments, the next two address the ablation study, and the remaining notebooks correspond to the appendices.
@@ -29,7 +29,7 @@ conda env create -f att_seek_env.yml
 
 Additionally, you will need to run the Standford CoreNLP tool on your terminal:
 
-0. Download the folder [stanford-corenlp-full-2018-02-27](https://drive.google.com/file/d/1K4Ll54ypTf_tF83Mkkar2QKOcZ4Uskl5/view?usp=sharing) and place it in the main folder of Attention-Seeker (same level as the notebooks).
+0. Download the folder [stanford-corenlp-full-2018-02-27](https://drive.google.com/file/d/1JDwxS6Bm2lxOJJPtycQxtqZagTVgj9RU/view?usp=sharing) and place it in the main folder of Attention-Seeker (same level as the notebooks).
 
 1. Ensure Java is installed:
 Check if Java is installed by running:
