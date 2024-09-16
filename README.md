@@ -33,23 +33,23 @@ Additionally, you will need to run the Standford CoreNLP tool on your terminal:
 
 1. Ensure Java is installed:
 Check if Java is installed by running:
-
+```
 	java --version
-
+```
 2. Navigate to the Standford CoreNLP directory:
-
+```
 	cd stanford-corenlp-full-2018-02-27/
-
+```
 3. Check available ports:
 Ensure that the port you plan to use is available (you can replace 9000 with another port number if needed):
-
+```
 	netstat -ano | findstr :9000
-
+```
 4. Run Standford CoreNLP:
 Start the Standford CoreNLP server on an available port (Replace 9000 with your available port number):
-    
+```    
 	java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -preload tokenize,ssplit,pos -status_port 9000 -port 9000 -timeout 15000
-
+```
 
 ## Running the Notebooks
 Before running the notebook of your choice, make sure to activate the created environment and ensure that you modify the port number in the second line of the second cell to match the port used by Standard CoreNLP:
