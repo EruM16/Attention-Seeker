@@ -9,13 +9,13 @@ The first two notebooks cover the main experiments, the next two address the abl
 
 To run these notebooks, ensure your environment includes the following libraries:
 
-・pandas 2.2.1
-・numpy 1.24.3
-・pytorch 2.3.0
-・nltk 3.8.1
-・transformers 4.38.2
-・huggingface_hub 0.23.1
-・tqdm 4.66.4
+- pandas 2.2.1
+- numpy 1.24.3
+- pytorch 2.3.0
+- nltk 3.8.1
+- transformers 4.38.2
+- huggingface_hub 0.23.1
+- tqdm 4.66.4
 
 
 ## Conda Environment Setup (Optional)
