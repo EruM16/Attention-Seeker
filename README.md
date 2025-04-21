@@ -1,5 +1,8 @@
 # Attention-Seeker
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/attention-seeker-dynamic-self-attention/keyphrase-extraction-on-inspec)](https://paperswithcode.com/sota/keyphrase-extraction-on-inspec?p=attention-seeker-dynamic-self-attention)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/attention-seeker-dynamic-self-attention/keyphrase-extraction-on-krapivin)](https://paperswithcode.com/sota/keyphrase-extraction-on-krapivin?p=attention-seeker-dynamic-self-attention)
+
 The present repository is for the paper: "Attention-Seeker: Dynamic Self-Attention Socring for Unsupervised Keyphrase Extraction"
 
 The code to replicate the results of the paper is organized into seven notebooks. 
